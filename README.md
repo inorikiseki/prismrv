@@ -115,6 +115,12 @@ npm i -D sass
 > so be careful to check out if the issue you came across is due 
 > to a global installation. 
 
+## Submodule
+
+[prisms] is a submodule which stores these shared resources required by both [prismrv] and
+[prismx].
+
+
 ## Resources
 Below are the **links** to the relevant documentations or tutorials to these
 dependencies we introduce.    
@@ -129,4 +135,7 @@ If you have any problem, please check these out.
 * [Vite Get Started](https://vitejs.dev/guide/)
 * [Sass Learn](https://sass-lang.com/guide/)
 
+[prisms]: https://github.com/inorikiseki/prisms
+[prismrv]: https://github.com/inorikiseki/prismrv
+[prismx]: https://github.com/inorikiseki/prismx
 [Node.js Package Manager]: https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager#packages
