@@ -55,6 +55,13 @@ After initialization, you should get these dependencies by default.
 }
 ```
 
+That's almost what we need for now except for `sass`. (Check links at [Resource](#resources))  
+We need to install `sass` as `devDependency`. 
+
+```cmd 
+npm i -D sass
+```
+
 >  * `dependencies` is these you need when you publish your app while.  
 >    `devDependencies` is these you need only at the development stage.    
 > 
