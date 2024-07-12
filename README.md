@@ -81,7 +81,8 @@ npm i -D sass
 >        eslint-plugin-react-refresh
 >        @vitejs/plugin-react
 >  ```
->
+> > Use `npm init -y` to automatically answer yes to npm prompts. `-y` = `--yes`.  
+> 
 > Considering that we are using typescript, don't forget:   
 >
 > ```cmd
@@ -90,6 +91,13 @@ npm i -D sass
 >        @types/typescritpt-eslint/eslint-plugin \
 >        @types/tepescript-eslint/parser \
 >  ```
+>  That's a lot. However, you have a better choice with command line as well.   
+> 
+> ```cmd
+>   npm create vite@latest frismrv -- --template react-ts
+>   cd frismrv
+>   npm install
+> ```
 >  
 > > In **lower versions** of node.js you may need to use `-S` or `--save` 
 > > to ensure the package you installed is registered in the `package.json` file.
@@ -103,7 +111,7 @@ npm i -D sass
 > Check details on `npm` at [Node.js Package Manager].   
 > 
 > > **Pitfall**  
-> > You may get into issues when you stall a package globally, 
+> > You may get into issues when you install a package globally, 
 > so be careful to check out if the issue you came across is due 
 > to a global installation. 
 
